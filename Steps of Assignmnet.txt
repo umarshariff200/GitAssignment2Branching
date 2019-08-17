@@ -1,0 +1,352 @@
+
+UMAR@UMAR-PC MINGW32 ~
+$ cd /c
+
+UMAR@UMAR-PC MINGW32 /c
+$ cd project_dir
+
+UMAR@UMAR-PC MINGW32 /c/project_dir (master)
+$ ls
+index.html  info.txt  README.md  test/
+
+UMAR@UMAR-PC MINGW32 /c/project_dir (master)
+$ cd test/
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/test (master)
+$ ls
+index.html  test.txt
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/test (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   index.html
+
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/test (master)
+$ git add index.html
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/test (master)
+$ git commit -m "add index.html" index.html
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+[master e287d24] add index.html
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.html
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/test (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/test (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 283 bytes | 283.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/umarshariff200/test.git
+   2448633..e287d24  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/test (master)
+$ cd .
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/test (master)
+$ cd \
+>
+
+UMAR@UMAR-PC MINGW32 ~
+$
+
+UMAR@UMAR-PC MINGW32 ~
+$ cd ..
+
+UMAR@UMAR-PC MINGW32 /c/Users
+$ cd \
+>
+
+UMAR@UMAR-PC MINGW32 ~
+$ cd /c
+
+UMAR@UMAR-PC MINGW32 /c
+$ cd project_dir
+
+UMAR@UMAR-PC MINGW32 /c/project_dir (master)
+$ git clone https://github.com/umarshariff200/GITASSIGNMENT.git
+Cloning into 'GITASSIGNMENT'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+UMAR@UMAR-PC MINGW32 /c/project_dir (master)
+$ git branch
+* master
+
+UMAR@UMAR-PC MINGW32 /c/project_dir (master)
+$ ls
+GITASSIGNMENT/  README.md  test/
+
+UMAR@UMAR-PC MINGW32 /c/project_dir (master)
+$ cd GITASSIGNMENT
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/GITASSIGNMENT (master)
+$ LS
+index.html  info.txt  README.md
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/GITASSIGNMENT (master)
+$ git add index.html
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/GITASSIGNMENT (master)
+$ git commit -m "adding index.html" index.html
+[master 6ebe45b] adding index.html
+ 1 file changed, 2 insertions(+)
+ create mode 100644 index.html
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/GITASSIGNMENT (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 290 bytes | 145.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/umarshariff200/GITASSIGNMENT.git
+   7662b42..6ebe45b  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/GITASSIGNMENT (master)
+$ git add info.txt
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/GITASSIGNMENT (master)
+$ git commit -m "adding info.txt" info.txt
+[master 837eda5] adding info.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 info.txt
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/GITASSIGNMENT (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 312 bytes | 312.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/umarshariff200/GITASSIGNMENT.git
+   6ebe45b..837eda5  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+UMAR@UMAR-PC MINGW32 /c/project_dir/GITASSIGNMENT (master)
+$ cd ..
+
+UMAR@UMAR-PC MINGW32 /c/project_dir (master)
+$ cd ..
+
+UMAR@UMAR-PC MINGW32 /c
+$ git clone https://github.com/umarshariff200/GitAssignment2Branching.git
+Cloning into 'GitAssignment2Branching'...
+warning: You appear to have cloned an empty repository.
+
+UMAR@UMAR-PC MINGW32 /c
+$ ls
+'$360Section'/                          BOOTNXT                        games/                     mec1/                         'Program Files'/     swapfile.sys
+'$Recycle.Bin'/                         BOOTSECT.BAK                   git/                       MSDOS.SYS                      Program Files/     'System Volume Information'/
+'$WINDOWS.~BT'/                        'cassette software'/            GitAssignment2Branching/   MSOCache/                      ProgramData/        tools/
+'$Windows.~WS'/                         Config.Msi/                    GTA/                      'My Web Sites'/                 project_dir/        TurboC++/
+ 86d478e3c24f4d7f73e7d6c026398b/        config.sys                     inetpub/                  'Need for Speed Most Wanted'/   Recovery/          'TurboC++ for Windows'/
+ apache-tomcat-7.0.91/                  Counter-Strike.exe*            Intel/                    'New folder'/                   RECYCLER/           Users/
+ apache-tomcat-7.0.91-windows-x86.zip   Dev-Cpp/                       IO.SYS                    'New folder (2)'/               RHDSetup.log        Windows/
+ apache-tomcat-8.0.53/                 'Documents and Settings'@       IZSKC                     'New folder (3)'/               SEPT/               Windows.old/
+ apache-tomcat-8.0.53-windows-x86.zip   Drivers/                       kulsum/                   'Oracle 10g Express Edition'/   Setup.log           Windows.old.000/
+ autoexec.bat                           eclipse-jee-indigo-win32/      Logs/                      oraclexe/                      SoftwaresFromABC/   xxyyzz/
+ Boot/                                  eclipse-jee-indigo-win32.zip   masmfiles/                 pagefile.sys                   spiderman/          xyz/
+ bootmgr                                ESD/                           mec/                       PerfLogs/                      sqlite/
+
+UMAR@UMAR-PC MINGW32 /c
+$ cd GitAssignment2Branching/
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ echo "" README.txt
+ README.txt
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ ls
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ echo "Hello" readme.txt
+Hello readme.txt
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ ls
+README.txt
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git add README.txt
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git commit -m "Adding README.txt file " README.txt
+[master (root-commit) 6f02303] Adding README.txt file
+ 1 file changed, 10 insertions(+)
+ create mode 100644 README.txt
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 234 bytes | 234.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/umarshariff200/GitAssignment2Branching.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git branch
+* master
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git log
+commit 6f0230339c647079253df4994d3ee5ce78c2708c (HEAD -> master, origin/master)
+Author: umarshariff200 <umarshariff200@gmail.com>
+Date:   Sat Aug 17 11:13:10 2019 +0530
+
+    Adding README.txt file
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git branch html-assignments
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git branch
+  html-assignments
+* master
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git checkout html-assignments
+Switched to branch 'html-assignments'
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (html-assignments)
+$ git add README.txt
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (html-assignments)
+$ git branch master
+fatal: A branch named 'master' already exists.
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (html-assignments)
+$ git checkout master
+Switched to branch 'master'
+M       README.txt
+Your branch is up to date with 'origin/master'.
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git checkout html-assignments
+Switched to branch 'html-assignments'
+M       README.txt
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (html-assignments)
+$ git add README.txt
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (html-assignments)
+$ git commit -m "commited on branch" README.txt
+[html-assignments 5ece04b] commited on branch
+ 1 file changed, 2 insertions(+)
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (html-assignments)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git checkout html-assignments
+Switched to branch 'html-assignments'
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (html-assignments)
+$ git add .
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (html-assignments)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (html-assignments)
+$ git push -u origin html-assignments
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 278 bytes | 278.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'html-assignments' on GitHub by visiting:
+remote:      https://github.com/umarshariff200/GitAssignment2Branching/pull/new/html-assignments
+remote:
+To https://github.com/umarshariff200/GitAssignment2Branching.git
+ * [new branch]      html-assignments -> html-assignments
+Branch 'html-assignments' set up to track remote branch 'html-assignments' from 'origin'.
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (html-assignments)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git merge html-assignments
+Updating 6f02303..5ece04b
+Fast-forward
+ README.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git push -u origin master
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/umarshariff200/GitAssignment2Branching.git
+   6f02303..5ece04b  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git branch -d html assignment
+error: branch 'html' not found.
+error: branch 'assignment' not found.
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git branch -d html-assignment
+error: branch 'html-assignment' not found.
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git branch -d html-assignments
+Deleted branch html-assignments (was 5ece04b).
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ git push -d origin html-assignments
+To https://github.com/umarshariff200/GitAssignment2Branching.git
+ - [deleted]         html-assignments
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ ^C
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ ^C
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$ ^C
+
+UMAR@UMAR-PC MINGW32 /c/GitAssignment2Branching (master)
+$
